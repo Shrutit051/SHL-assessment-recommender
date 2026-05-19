@@ -13,7 +13,7 @@ google-generativeai==0.7.2       # Gemini 1.5 Flash API
 
 # ── RAG / Embeddings ──────────────────────────────────────────
 sentence-transformers==3.0.1     # all-MiniLM-L6-v2 and others
-faiss-cpu==1.8.0                 # CPU-only FAISS (Render uses CPU VMs)
+faiss-cpu==1.13.2                 # CPU-only FAISS (Render uses CPU VMs)
                                  # Switch to faiss-gpu if using CUDA
 
 # ── Data handling ─────────────────────────────────────────────
